@@ -17,13 +17,38 @@ To write a program to predict the marks scored by a student using the simple lin
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: 
-RegisterNumber:  
+Developed by: HARSSHITHA LAKSHMANAN
+RegisterNumber: 212223230075
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+df=pd.read_csv('/content/exp1data - Sheet1.csv')
+df.head(10)
+plt.scatter(df['x'],df['y'])
+plt.xlabel('x')
+plt.ylabel('y')
+x=df.iloc[:,0:1]
+y=df.iloc[:,-1]
+from sklearn.model_selection import train_test_split
+xtrain,xtest,ytrain,ytest=train_test_split(x,y,test_size=0.2,random_state=0)
+from sklearn.linear_model import LinearRegression
+lr=LinearRegression()
+lr.fit(xtrain,ytrain)
+xtrain
+ytrain
+lr.predict(xtest.iloc[0].values.reshape(1,1))
+plt.scatter(df['x'],df['y'])
+plt.xlabel('x')
+plt.ylabel('y')
+plt.plot(xtrain,lr.predict(xtrain),color='red')
+
 */
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/471bf8a5-f503-43e6-bdc0-6c82084b364e)
+
 
 
 ## Result:
