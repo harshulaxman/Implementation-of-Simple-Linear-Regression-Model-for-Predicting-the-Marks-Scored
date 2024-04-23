@@ -49,7 +49,15 @@ plt.plot(xtrain,lr.predict(xtrain),color='red')
 ```
 
 ## Output:
-![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/471bf8a5-f503-43e6-bdc0-6c82084b364e)
+![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/84a0d8f1-c336-4023-b031-0b1516bb6d40)
+
+![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/bf3a21a3-251e-468e-8ccc-5a67048f64b2)
+
+![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/b567f9df-b60e-47e4-b883-8226e4c1ade0)
+![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/c999e140-ff32-4940-9d31-2212e329a118)
+![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/0b7fce43-2c18-4313-9e44-ac458dd0f47e)
+![image](https://github.com/harshulaxman/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145686689/1f796af4-2234-4a6d-b593-efa2de219762)
+
 
 
 
